@@ -1,0 +1,122 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-color: #1D1E22;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+    font-family: "roboto";
+}
+/* Nav styles *****************************/
+#dux__logo {
+    width: 140px;
+    height: 110.6px;
+    margin: -20px 0px 0px 30px;
+    float: left;
+    transition-duration: 0.5s;
+}
+
+ul, li, a {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 3rem;
+    font-weight: 200; 
+}
+
+.wrapper {
+    width: 100%;
+    margin: 0px auto;
+    height: 84px;
+    transition-duration: 0.5s;
+}
+
+.nav_wrapper {
+    width: 1000px;
+    margin: 30px auto;
+    padding: 12px 50px 50px 0px;
+    height: 20px;    
+/*    border: red solid 1px;*/
+    transition-duration: 0.5s;
+}
+
+ ul {
+    display: flex;
+    align-items: center; 
+}
+
+
+.nav_btn_container a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.5); 
+}
+
+/*
+a {
+    padding: 0;
+    margin: 0;
+}
+*/
+
+.item {
+    padding: 0px 16px 0px 16px;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+/*    border: red solid 1px;*/
+}
+
+@media only screen and (max-width:1010px) {
+    .none {
+        display: none;
+    }
+    .show {
+        display: block;
+    }
+}
+
+.item__ {
+    flex: 1;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+}
+
+.nav_btn_container a:hover {
+    color: #0097A5;
+    font-size: 3.1rem;
+    transition-duration: 0.2s;
+}
+.prefix {
+/*    position: relative;*/
+    width: 2rem;
+    top: 1rem;
+    font-size: 2.72rem;
+    color: rgba(255,255,255,0.5);
+}
+
+.black__ {
+    background-color: black; 
+}
+
+.remove {
+    display: none;
+}
+
+.fixed-nav {
+    position: fixed;
+    top: 0;
+}
+
+.-nav {
+    top: 0;
+    margin: 0px auto;
+}
+
+.menu__ {
+    display: none;
+}
+/* //nav styles end *********************************/
